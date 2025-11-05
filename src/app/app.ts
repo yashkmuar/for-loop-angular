@@ -16,4 +16,8 @@ export class App {
     {name:'Sam', age:22,email:'sam@example.com'},
     {name:'Anish',age:24,email:'anish@example.com'}
   ]
+
+  getName(name:string){
+    console.log(name);
+  }
 }
